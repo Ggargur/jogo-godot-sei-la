@@ -1,19 +1,14 @@
 [gd_scene format=3 uid="uid://cis0060q7i3jg"]
 
-[ext_resource type="PackedScene" uid="uid://bimljissn4dsf" path="res://scenes/player.tscn" id="1_k2ibd"]
-[ext_resource type="Script" uid="uid://c3rmexbgh2t28" path="res://scripts/player_controller.gd" id="2_1bv65"]
+[ext_resource type="PackedScene" uid="uid://c8iudba24j2ad" path="res://scenes/player.tscn" id="1_k2ibd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1bv65"]
 size = Vector2(1234, 103)
 
 [node name="Default_Scene" type="Node2D" unique_id=1069782256]
 
-[node name="Player" parent="." unique_id=2067204065 instance=ExtResource("1_k2ibd")]
+[node name="Player" parent="." unique_id=2115675970 instance=ExtResource("1_k2ibd")]
 position = Vector2(245, 90)
-gravity_scale = 1.0
-script = ExtResource("2_1bv65")
-metadata/speed = 100.0
-metadata/jump_force = 1000.0
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=157852656]
 position = Vector2(578, 586)

@@ -1,4 +1,6 @@
-extends RigidBody2D
+extends CharacterBody2D
+
+const GRAVITY = 100;
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -7,16 +9,17 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	const max_velocity = Vector2(100,1000)
-	var drag = -self.linear_velocity * 0.03	
 	var x_speed = Input.get_axis("left", "right") * get_meta("speed")
-	if Input.is_action_just_pressed("jump"):
-		_jump()
 	
-	var vel = Vector2(x_speed,0) + drag
-	vel = vel.clamp(-max_velocity, max_velocity)
-	self.apply_impulse(vel)
+	self.velocity = Vector2(x_speed,self.velocity.y)
+	
+	if Input.is_action_just_pressed("jump") and self.is_on_floor():
+		_jump()
+		
+	self.velocity -= Vector2(0, -GRAVITY)
+	
+	self.move_and_slide()
 
 
 func _jump() -> void:
-	self.linear_velocity -= Vector2(0,get_meta("jump_force"))
+	self.velocity -= Vector2(0,get_meta("jump_force"))
