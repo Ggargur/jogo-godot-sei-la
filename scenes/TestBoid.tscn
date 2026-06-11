@@ -5,37 +5,25 @@
 [node name="TestBoid" type="Node2D" unique_id=1255494582]
 
 [node name="Boid" parent="." unique_id=278858675 groups=["boids"] instance=ExtResource("1_hig45")]
-gravity_scale = 0.0
 
 [node name="Boid2" parent="." unique_id=1325901362 groups=["boids"] instance=ExtResource("1_hig45")]
-gravity_scale = 0.0
 
 [node name="Boid3" parent="." unique_id=861008499 groups=["boids"] instance=ExtResource("1_hig45")]
-gravity_scale = 0.0
 
 [node name="Boid4" parent="." unique_id=678293005 groups=["boids"] instance=ExtResource("1_hig45")]
-gravity_scale = 0.0
 
 [node name="Boid5" parent="." unique_id=608141907 groups=["boids"] instance=ExtResource("1_hig45")]
-gravity_scale = 0.0
 
 [node name="Boid6" parent="." unique_id=901585467 groups=["boids"] instance=ExtResource("1_hig45")]
-gravity_scale = 0.0
 
 [node name="Boid7" parent="." unique_id=1212290713 groups=["boids"] instance=ExtResource("1_hig45")]
-gravity_scale = 0.0
 
 [node name="Boid8" parent="." unique_id=575382267 groups=["boids"] instance=ExtResource("1_hig45")]
-gravity_scale = 0.0
 
 [node name="Boid9" parent="." unique_id=1082108125 groups=["boids"] instance=ExtResource("1_hig45")]
-gravity_scale = 0.0
 
 [node name="Boid10" parent="." unique_id=576761188 groups=["boids"] instance=ExtResource("1_hig45")]
-gravity_scale = 0.0
 
 [node name="Boid11" parent="." unique_id=1124205775 groups=["boids"] instance=ExtResource("1_hig45")]
-gravity_scale = 0.0
 
 [node name="Boid12" parent="." unique_id=1442926148 groups=["boids"] instance=ExtResource("1_hig45")]
-gravity_scale = 0.0
