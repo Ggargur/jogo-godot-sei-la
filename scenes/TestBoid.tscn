@@ -1,41 +1,41 @@
 [gd_scene format=3 uid="uid://cpem8iy2pjsfk"]
 
-[ext_resource type="PackedScene" uid="uid://de3xbjqjen13b" path="res://scenes/Boid.tscn" id="1_qmtxk"]
+[ext_resource type="PackedScene" uid="uid://de3xbjqjen13b" path="res://scenes/Boid.tscn" id="1_hig45"]
 
 [node name="TestBoid" type="Node2D" unique_id=1255494582]
 
-[node name="Boid" parent="." unique_id=278858675 instance=ExtResource("1_qmtxk")]
+[node name="Boid" parent="." unique_id=278858675 groups=["boids"] instance=ExtResource("1_hig45")]
 gravity_scale = 0.0
 
-[node name="Boid2" parent="." unique_id=1325901362 instance=ExtResource("1_qmtxk")]
+[node name="Boid2" parent="." unique_id=1325901362 groups=["boids"] instance=ExtResource("1_hig45")]
 gravity_scale = 0.0
 
-[node name="Boid3" parent="." unique_id=861008499 instance=ExtResource("1_qmtxk")]
+[node name="Boid3" parent="." unique_id=861008499 groups=["boids"] instance=ExtResource("1_hig45")]
 gravity_scale = 0.0
 
-[node name="Boid4" parent="." unique_id=678293005 instance=ExtResource("1_qmtxk")]
+[node name="Boid4" parent="." unique_id=678293005 groups=["boids"] instance=ExtResource("1_hig45")]
 gravity_scale = 0.0
 
-[node name="Boid5" parent="." unique_id=608141907 instance=ExtResource("1_qmtxk")]
+[node name="Boid5" parent="." unique_id=608141907 groups=["boids"] instance=ExtResource("1_hig45")]
 gravity_scale = 0.0
 
-[node name="Boid6" parent="." unique_id=901585467 instance=ExtResource("1_qmtxk")]
+[node name="Boid6" parent="." unique_id=901585467 groups=["boids"] instance=ExtResource("1_hig45")]
 gravity_scale = 0.0
 
-[node name="Boid7" parent="." unique_id=1212290713 instance=ExtResource("1_qmtxk")]
+[node name="Boid7" parent="." unique_id=1212290713 groups=["boids"] instance=ExtResource("1_hig45")]
 gravity_scale = 0.0
 
-[node name="Boid8" parent="." unique_id=575382267 instance=ExtResource("1_qmtxk")]
+[node name="Boid8" parent="." unique_id=575382267 groups=["boids"] instance=ExtResource("1_hig45")]
 gravity_scale = 0.0
 
-[node name="Boid9" parent="." unique_id=1082108125 instance=ExtResource("1_qmtxk")]
+[node name="Boid9" parent="." unique_id=1082108125 groups=["boids"] instance=ExtResource("1_hig45")]
 gravity_scale = 0.0
 
-[node name="Boid10" parent="." unique_id=576761188 instance=ExtResource("1_qmtxk")]
+[node name="Boid10" parent="." unique_id=576761188 groups=["boids"] instance=ExtResource("1_hig45")]
 gravity_scale = 0.0
 
-[node name="Boid11" parent="." unique_id=1124205775 instance=ExtResource("1_qmtxk")]
+[node name="Boid11" parent="." unique_id=1124205775 groups=["boids"] instance=ExtResource("1_hig45")]
 gravity_scale = 0.0
 
-[node name="Boid12" parent="." unique_id=1442926148 instance=ExtResource("1_qmtxk")]
+[node name="Boid12" parent="." unique_id=1442926148 groups=["boids"] instance=ExtResource("1_hig45")]
 gravity_scale = 0.0
