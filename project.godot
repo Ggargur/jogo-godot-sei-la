@@ -11,9 +11,9 @@ config_version=5
 [application]
 
 config/name="projetinho"
-run/main_scene="res://scenes/default_scene.tscn"
+run/main_scene="uid://cpem8iy2pjsfk"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://Assets/icon.svg"
 
 [input]
 
